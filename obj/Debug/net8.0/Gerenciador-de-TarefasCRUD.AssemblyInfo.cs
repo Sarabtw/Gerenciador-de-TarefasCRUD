@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gerenciador-de-TarefasCRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c4dc0f14f4f96e562354b6dcdc35f4fea04a82c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bf802f9a3e64a1b39da1d75340c51dba3f3ab51")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gerenciador-de-TarefasCRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gerenciador-de-TarefasCRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

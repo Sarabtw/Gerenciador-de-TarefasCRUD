@@ -8,8 +8,8 @@ public class Tipo
     public int Id { get; set; }
 
 
-    [Required(ErrorMessage  = "O campo Nome é obrigatório")]
-    [MinLength(2, ErrorMessage  = "Mínimo 2 caracteres.")]
+    [Required(ErrorMessage = "O campo Nome é obrigatório")]
+    [MinLength(2, ErrorMessage = "Mínimo 2 caracteres.")]
     [MaxLength(100, ErrorMessage = "Máximo 100 caracteres.")]
     public string Nome { get; set; } = null!;
 
@@ -17,4 +17,8 @@ public class Tipo
     [MinLength(2, ErrorMessage = "Mínimo 2 caracteres.")]
     [MaxLength(200, ErrorMessage = "Máximo 200 caracteres.")]
     public string Descricao { get; set; } = null!;
+    public ICollection<Tarefa> Tarefas { get; set; } = new List<Tarefa>();
+
+     public DateTime DataCriacao { get; set; }
+    public DateTime? DataConclusao { get; set; }
 }

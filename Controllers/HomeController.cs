@@ -1,9 +1,11 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Gerenciador_de_TarefasCRUD.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Gerenciador_de_TarefasCRUD.Controllers;
 
+[Authorize]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
